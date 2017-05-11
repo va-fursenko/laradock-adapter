@@ -1,2 +1,2 @@
 # laradock-adapter
-Official laradock/laradock adapter for custom config use
+Adapter for using official laradock/laradock with custom configs
