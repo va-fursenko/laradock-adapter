@@ -1,4 +1,4 @@
-.PHONY: start stop restart shell logs rebuild init update
+.PHONY: start stop restart shell logs rebuild init update dbdump dbrestore
 
 start:
 	@bash scripts/start.sh
@@ -26,3 +26,9 @@ init:
 
 update:
 	@bash scripts/update.sh
+
+dbdump:
+	@bash scripts/pg-dump.sh
+
+dbrestore:
+	@bash scripts/pg-restore.sh
