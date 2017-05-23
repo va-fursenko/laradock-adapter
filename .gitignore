@@ -1,5 +1,6 @@
 .env
+.idea/*
 logs/*
 data/*
-containers/*
-htdocs/*
+containers
+htdocs
