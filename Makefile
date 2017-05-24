@@ -31,7 +31,7 @@ phpunit:
 	@bash scripts/phpunit.sh
 
 dbdump:
-	@bash scripts/pg-dump.sh
+	@bash scripts/db-dump.sh
 
 dbrestore:
-	@bash scripts/pg-restore.sh
+	@bash scripts/db-restore.sh
