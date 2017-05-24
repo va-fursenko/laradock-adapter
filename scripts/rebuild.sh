@@ -6,4 +6,4 @@ sudo systemctl start docker
 # Удаляем контейнеры
 docker rm -v -f $(docker ps -a -q)
 # Пересобираем
-docker-compose build --no-cache --force-rm --pull nginx mariadb php-fpm
+docker-compose build --no-cache --force-rm --pull workspace php-fpm selenium
