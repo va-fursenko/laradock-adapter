@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker-compose exec --user laradock workspace bash -c 'composer update && npm update'
+docker-compose exec --user laradock workspace bash -c 'composer update'

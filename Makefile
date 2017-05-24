@@ -1,4 +1,4 @@
-.PHONY: start stop restart shell logs rebuild init update phpunit dbdump dbrestore 
+.PHONY: start stop restart shell logs rebuild init update phpunit
 
 start:
 	@bash scripts/start.sh
@@ -29,9 +29,3 @@ update:
 
 phpunit:
 	@bash scripts/phpunit.sh
-
-dbdump:
-	@bash scripts/db-dump.sh
-
-dbrestore:
-	@bash scripts/db-restore.sh
