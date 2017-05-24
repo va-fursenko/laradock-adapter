@@ -29,3 +29,6 @@ update:
 
 phpunit:
 	@bash scripts/phpunit.sh
+
+dusk:
+	@bash scripts/dusk.sh
