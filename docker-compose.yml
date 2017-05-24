@@ -134,7 +134,7 @@ services:
 ### phpMyAdmin Container ####################################
 
     phpmyadmin:
-      build: ./phpmyadmin
+      build: ./containers/phpmyadmin
       environment:
         - PMA_ARBITRARY=1
         - MYSQL_USER=${PMA_USER}
