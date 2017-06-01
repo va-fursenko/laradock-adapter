@@ -80,6 +80,7 @@ services:
         - PHP_IDE_CONFIG=${PHP_IDE_CONFIG}
       networks:
         - backend
+        - frontend
 
 ### PHP Worker Container #####################################
 
