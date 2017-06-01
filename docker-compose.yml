@@ -80,7 +80,6 @@ services:
         - PHP_IDE_CONFIG=${PHP_IDE_CONFIG}
       networks:
         - backend
-        - frontend
 
 ### PHP Worker Container #####################################
 
@@ -126,6 +125,7 @@ services:
         - /dev/shm:/dev/shm
       networks:
         - frontend
+        - backend
 
 ### Networks Setup ############################################
 
